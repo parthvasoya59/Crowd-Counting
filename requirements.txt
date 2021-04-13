@@ -33,6 +33,7 @@ itsdangerous==1.1.0
 jedi==0.16.0
 Jinja2==2.11.1
 jsonschema==3.2.0
+opencv-python-headless==4.2.0.32
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
 llvmlite==0.31.0
