@@ -34,10 +34,6 @@ itsdangerous==1.1.0
 jedi==0.16.0
 Jinja2==2.11.1
 jsonschema==3.2.0
-Keras==2.3.1
-Keras-Applications==1.0.8
-keras-contrib==2.0.8
-Keras-Preprocessing==1.1.0
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
 llvmlite==0.31.0
