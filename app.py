@@ -719,13 +719,5 @@ def video_feed2():
     return Response(gen2(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-if __name__ == '__main__':
-    app.debug = False
-    app.run(host="0.0.0.0")
-
-'''
 if __name__ == "__main__":
-    print("Startiing Python Flask Server For Crowd Counting system...")
-    app.run()
-
-'''
+    app.run(debug=True)
