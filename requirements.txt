@@ -12,7 +12,6 @@ Click==7.0
 colorama==0.4.3
 contrib==0.3.0
 cycler==0.10.0
-Cython==0.29.15
 decorator==4.4.1
 dlib
 dill==0.3.1.1
