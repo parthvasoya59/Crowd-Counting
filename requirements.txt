@@ -1,5 +1,5 @@
 alabaster
-anaconda-client==1.7.2
+anaconda-client
 anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1610472525955/work
 anyio @ file:///C:/ci/anyio_1617783473211/work/dist
 appdirs==1.4.4
