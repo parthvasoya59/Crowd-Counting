@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Crowd Counting</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicons -->
+  <link href="static/assests/img/logo.png" rel="icon">
+  <link href="static/assests/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/assests/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/assests/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/assests/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="static/assests/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/assests/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/assests/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/assests/css/style.css" rel="stylesheet">
+
+ <script src="static/app.js"></script>
+<style>
+#i,#d2, #d1, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#submit1 {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit1:hover {
+  background-color: #45a049;
+}
+
+#div1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
+</head>
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#header"><span>Crowd Counting</span></a></h1>
+<!--         <a href="#intro" class="scrollto" ><img src="img/logo.png" alt="" class="img-fluid" width="100px" height="200px"></a>
+ -->      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#steps">How it's work ?</a></li>
+
+          <li><a href="#about1">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team Member</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix" >
+    <div class="container" id="t1">
+
+      <div class="page-wrapper bg-img-1 p-t-100 p-b-120" align='center'>
+        <div class="wrapper">
+            <div class="card1 card1-4" style=" width: 60%;">
+                <div class="card-body">
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                          <div class="col-8"  style="color: white">
+
+                              <button class="btn-submit" name="buttonn" id="b1" type="submit">Entrance & Exit in one Camera</button>
+                              <br>
+                              <button class="btn-submit" name="buttonn" id="b2" type="submit">Entrance & exit in two cameras</button>
+
+                          </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </section><!-- #intro -->
+
+  <!-- For Video Display -->
+  <section class="clearfix" id="di" style="display: none;">
+      <div class="container" style="margin-top: 100px;">
+          <div id="container" align='center'>
+            <span class="border-10 border-primary">
+              <img class="GradientBorder" style="border:2px solid blue" id="i1" src="">
+            </span>
+          </div>
+      </div>
+      <div class="container" style="margin-top: 100px;">
+          <div align='center'>
+            <img id="i2" src="" style="border:2px solid blue">
+            <img id="i3" src="" style="border:2px solid blue">
+          </div>
+      </div>
+  </section>
+
+  <main id="main">
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" style="margin-top: 50px; ">
+      <div class="container" id="steps">
+
+        <header class="section-header">
+          <h3>How it's work ?</h3>
+        </header>
+        <div class="row about-container">
+        	<div class="col-lg-6 content order-lg-1 order-2">
+          
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-mouse-pointer "></i></div>
+              <h4 class="title"><a href="">Make your Choice</a></h4>
+              <p class="description">First of all, You need to choose either you cover both enterance & exit in a single camera or separated for each. </p>
+            </div><br>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-video-camera"></i></div>
+              <h4 class="title"><a href="">In a single Camera</a></h4>
+              <p class="description">In this, if someone goes below the prediction line then it will be counted as entered person else (goes above the prediction line) counted as exited person. The total number of present people will be calculated by substracted exited person from entered person at any instance of time.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-check-square-o"></i></div>
+              <h4 class="title"><a href="">In Separated Cameras</a></h4>
+              <p class="description">In this. one camera is used to calculate number of entered person by going down from the prediction line and other one is used to count exited person. Both cameras result i.e, number of entered and exited person will be stored as global variables. Now, we substract total number of exited person from entered person to count total people present in the mall at any instance of time. </p>
+            </div><br>
+
+            
+          </div>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp" style="margin-top: -450px;margin-left: 700px;">
+            <img src="static/assests/img/confirmation.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+        <div class="row about-extra" id="about1">
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <img src="static/assests/img/excel.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>About US</h4>
+            <p>
+            Crowd Counting is a web-software to count total number of present people inside the mall. We developed this tool because it will be more easier for the higher authorities to maintain records of daily visited people. We tried to make this system as simple as possible so that user does not face any issues while counting. 
+            </p>
+            
+            <p>You are also able to see daily records in the excel file.
+            </p>
+            
+          </div>
+          
+        </div>
+
+        <div class="row about-extra">
+          
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Services</h3>
+          
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="margin-left: 50px;"><i class="fa fa-bolt" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Fast</a></h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"style="margin-left: 50px;"><i class="fa fa-etsy" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Easy to Use</a></h4>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"style="margin-left: 50px;"><i class="fa fa-database" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Maintain Daily Records</a></h4>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"style="margin-left: 50px;"><i class="fa fa-area-chart" style="color:#ff689b;"></i></div>
+              <h4 class="title"><a href="">High Accuracy</a></h4>
+           </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"style="margin-left: 50px;"><i class="fa fa-exclamation" style="color:#ff689b;"></i></div>
+              <h4 class="title"><a href="">Alert Generation</a></h4>
+           </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"style="margin-left: 50px;"><i class="fa fa-calendar" style="color:#3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Automatic Scheduler</a></h4>
+           </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team Member</h3>
+        </div>
+
+        <div class="row" >
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp "  style="margin-left: 200px;">
+            <div class="member">
+              <img src="static/assests/img/parth.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Parth Vasoya</h4>
+                  <div class="social">
+                    <a href="https://www.instagram.com/parth_vasoya59/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://wa.me/916355119697"><i class="fa fa-whatsapp"></i></a>
+                    <a href="tel://6355119697"><i class="fa fa-phone"></i></a>
+                    <a href="mailTo:parthvasoya1000@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp"style="margin-left: 150px;" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="static/assests/img/vandit.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Vandit Rogheliya</h4>
+                  <div class="social">
+                    <a href="https://www.instagram.com/_tiger_3301/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://wa.me/918780774592"><i class="fa fa-whatsapp"></i></a>
+                    <a href="tel://8780774592"><i class="fa fa-phone"></i></a>
+                    <a href="mailTo:rogheliyavandit09@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp" style="margin-left: 400px;">
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>info@example.com</p>
+              </div>
+              <div class="col-md-8 info" style="margin-left: 1px;">
+                <i class="ion-ios-telephone-outline"></i>
+                <p><a href="tel://6355119697"> +91 6355119697 </a> / <a href="tel://8780774592"> +91 8780774592</a> </p>
+              </div>
+            </div>
+
+            <div class="form">
+              <form action="mailTo:rogheliyavandit09@gmail.com"  method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6 footer-info">
+            <h3>Crowd Counting</h3>
+            <p> Crowd Counting is a web-software to count total number of present people inside the mall.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#team">Team Member</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <strong>Phone:</strong><a href="tel://6355119697"> +91 6355119697 </a>  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="tel://8780774592"> +91 8780774592</a>
+              <br>
+              <strong>Email:</strong>&nbsp;&nbsp;info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- JavaScript Libraries -->
+  <script src="static/assests/lib/jquery/jquery.min.js"></script>
+  <script src="static/assests/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="static/assests/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assests/lib/easing/easing.min.js"></script>
+  <script src="static/assests/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="static/assests/lib/wow/wow.min.js"></script>
+  <script src="static/assests/lib/waypoints/waypoints.min.js"></script>
+  <script src="static/assests/lib/counterup/counterup.min.js"></script>
+  <script src="static/assests/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="static/assests/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="static/assests/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+
+
+  <!-- Template Main Javascript File -->
+  <script src="static/assests/js/main.js"></script>
+  <script type="text/javascript">
+   
+    $(document).ready(function(){
+      $("#b1").click(function(){
+          // Change src attribute of image
+          $("#di").css("display", "block");
+          $("#i1").attr("src", "{{ url_for('video_feed') }}");
+          $("#t1").css("display", "none");
+          $("#i2").css("display", "none");
+          $("#i3").css("display", "none");
+      }); 
+      $("#b2").click(function(){
+          // Change src attribute of image
+          $("#di").css("display", "block");
+          $("#i2").attr("src", "{{ url_for('video_feed1') }}");
+          $("#i3").attr("src", "{{ url_for('video_feed2') }}");
+          $("#t1").css("display", "none");
+          $("#i1").css("display", "none");
+      }); 
+
+    });
+        
+  </script>
+</body>
+</html>
