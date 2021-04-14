@@ -256,11 +256,6 @@ def gen():
         #cv2.imshow("Real-Time Monitoring/Analysis Window", frame)
         frame = cv2.imencode('.jpg', frame)[1].tobytes()
         yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-        key = cv2.waitKey(1) & 0xFF
-
-        # if the `q` key was pressed, break from the loop
-        if key == ord("q"):
-            break
 
         # increment the total number of frames processed thus far and
         # then update the FPS counter
@@ -462,12 +457,6 @@ def gen1():
 		#cv2.imshow("Real-Time ENTERING Monitoring/Analysis Window", frame)
 		frame = cv2.imencode('.jpg', frame)[1].tobytes()
 		yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-		key = cv2.waitKey(1) & 0xFF
-
-		# if the `q` key was pressed, break from the loop
-		if key == ord("q"):
-
-			break
 
 		# increment the total number of frames processed thus far and
 		# then update the FPS counter
@@ -677,11 +666,6 @@ def gen2():
 		#cv2.imshow("Real-Time EXITED Monitoring/Analysis  Window", frame)
 		frame = cv2.imencode('.jpg', frame)[1].tobytes()
 		yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-		key = cv2.waitKey(1) & 0xFF
-
-		# if the `q` key was pressed, break from the loop
-		if key == ord("q"):
-			break
 
 		# increment the total number of frames processed thus far and
 		# then update the FPS counter
