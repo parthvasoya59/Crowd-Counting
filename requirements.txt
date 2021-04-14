@@ -48,8 +48,6 @@ mysql-connector==2.2.9
 networkx==2.4
 numba==0.48.0
 numpy==1.18.2
-opencv-contrib-python==4.2.0.32
-opencv-python==4.2.0.34
 opt-einsum==3.1.0
 packaging==20.1
 parso==0.6.1
